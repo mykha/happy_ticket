@@ -1,7 +1,7 @@
 <form action="/check" method="POST">
 <div class="form-floating mb-3  col-auto">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-  <label for="floatingInput">Email address</label>
+  <input name="ticket_number" value="<%=@ticket_number%>" type="number" class="form-control" id="floatingInput" placeholder="Номер билетика">
+  <label for="floatingInput">Введите номер билетика</label>
 </div>
 
   <div class="col-auto">
